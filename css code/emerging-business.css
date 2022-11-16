@@ -1,0 +1,33 @@
+.emerging-business .container .card {
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.emerging-business {
+	margin-bottom: 40px;
+    margin-top:60px;
+}
+
+
+
+.emerging-business .card img {
+    border-radius: 4px;
+}
+
+.emerging-business .intro {
+    margin-bottom: 30px;
+}
+
+.emerging-business .intro h2 {
+    font-size:40px;
+    font-weight:bold;
+}
+
+.card-block .social a {
+    text-decoration: none;
+    color:gray;
+}

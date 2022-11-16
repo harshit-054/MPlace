@@ -1,0 +1,89 @@
+.audiobooks-section .card-block {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.audiobooks-section {
+	margin-bottom: 40px;
+    background: transparent;
+    margin-top:40px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.audiobooks-section .intro {
+    margin-bottom: 30px;
+}
+
+.audiobooks-section .card {
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    background-image: linear-gradient(to bottom right, rgb(249, 112, 112), rgb(250, 250, 124));
+}
+
+.audiobooks-section .intro h2 {
+    font-size:40px;
+    font-weight:bold;
+}
+
+img.mp3-cover {
+	border-radius: 5px 5px 0 0;
+	padding: 5px;
+	width:100%;
+}
+
+.mp3-hover:hover
+{
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1.1);
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1.1);   
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1.1);
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+
+img.mp3-hover:hover{
+	box-shadow: 0px 0px 100px #94a7ba;
+	z-index: 2;
+}
+
+.mp3-auido{
+	width:100%;
+}
+
+.mp3-details{
+	height: 35px;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+
+.mp3-details i{
+	font-size: 30px;
+	color: #666666;
+	padding: 3px;
+}
+
+.mp3-details span{
+	font-size: 30px;
+	color: #666666;
+	padding: 3px;
+}
+
+.mp3-details i{
+	font-size: 40px;
+	color: #666666;
+	padding: 3px;
+}
+.mp3-details a{
+	text-decoration: none;
+}
+
+ul li span { 
+	float: left;
+	width: 60px;
+	font-weight: bold;
+    font-size: 14px;
+}
