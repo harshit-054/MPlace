@@ -1,0 +1,41 @@
+.contact {
+    background-color:rgb(247, 253, 255);
+    font-family:'Poppins',sans-serif;
+}
+
+.contact-socials h1 {
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+
+.contact-socials-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+}
+
+.contact-socials-icons svg {
+    width:100px;
+    height:100px;
+}
+
+.contact-socials-icons a .tooltip {
+    position:absolute;
+    background-color:gray;
+    color:white;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:2px;
+    font-size:12px;
+    bottom:-30px;
+    opacity:0;
+    pointer-events: none;
+    white-space: wrap;
+}
+.contact-socials-icons a:hover .tooltip {
+    opacity:1;
+}
