@@ -11851,3 +11851,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 #mainNav {
   background-color: rgb(33, 37, 41);
 }
+
+.btn-contact:hover {
+  opacity:0.7;
+}
+
+.btn-contact:active {
+  opacity:0.4;
+}

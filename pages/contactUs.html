@@ -82,7 +82,7 @@
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
                     <h3 class="section-subheading text-muted">We Are Happy to Help You Always</h3>
                 </div>
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN" action ="https://formspree.io/f/xeqddwgy" method="POST">
+                <form id="contactForm" action ="https://formspree.io/f/xeqddwgy" method="POST">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -116,8 +116,7 @@
                     <!-- has successfully submitted-->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
+                            <div class="fw-bolder">Form submission successful!</div>                           
                             <br />
                             <a>Thank You For your Concern</a>
                         </div>
@@ -128,7 +127,7 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="text-center"><button class="btn-contact btn btn-primary btn-xl text-uppercase text-white" id="submitButton" type="submit">Send Message</button></div>
                 </form>
             </div>
         </section>
