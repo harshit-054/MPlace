@@ -1,5 +1,5 @@
 .marketing-top {
-    background-color:rgb(247, 253, 255);
+    background-color:rgb(236, 250, 255);
     font-family:'Poppins',sans-serif;
 }
 
@@ -73,31 +73,11 @@
     opacity:1;
 }
 
-
-.info-image {
-    position:relative;
-  }
-  
-  .info-image img {
-    width:1264px;
-  }
-  
-  .info-head {
-    font-size:60px;
-    color:rgb(21, 22, 54);
-    position:absolute;
-    top:380px;
-    left:360px;
-  }
-
-  .info-para {    
-    color:rgb(21, 22, 54);
-    text-align: center;
-    width:400px;
-    position:absolute;
-    top:450px;
-    left:440px;
-  }
+.market-info {
+  padding-left:30px;
+  padding-right:30px;
+  margin-top:110px;
+}
 
   
 
